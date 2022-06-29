@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- begin original Flag_of_United_States.svg -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="1235"
+   height="650"
+   id="svg3746"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="Flag_of_the_United_States_and_Germany.svg">
+  <metadata
+     id="metadata3820">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     id="namedview3818"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="1633.4145"
+     inkscape:cy="557.33023"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3746" />
+  <defs
+     id="defs3748">
+    <polygon
+       id="pt"
+       points="-0.16246,0 0,-0.5 0.16246,0"
+       transform="scale(0.0616, 0.0616)"
+       fill="white" />
+    <!-- ^ ~= (tan 18)/2 -->
+    <g
+       id="star">
+      <use
+         xlink:href="#pt"
+         transform="rotate(-144)"
+         id="use3752" />
+      <use
+         xlink:href="#pt"
+         transform="rotate(-72)"
+         id="use3754" />
+      <use
+         xlink:href="#pt"
+         id="use3756" />
+      <use
+         xlink:href="#pt"
+         transform="rotate(72)"
+         id="use3758" />
+      <use
+         xlink:href="#pt"
+         transform="rotate(144)"
+         id="use3760" />
+    </g>
+    <g
+       id="s5">
+      <use
+         xlink:href="#star"
+         x="-0.252"
+         id="use3763" />
+      <use
+         xlink:href="#star"
+         x="-0.126"
+         id="use3765" />
+      <use
+         xlink:href="#star"
+         id="use3767" />
+      <use
+         xlink:href="#star"
+         x="0.126"
+         id="use3769" />
+      <use
+         xlink:href="#star"
+         x="0.252"
+         id="use3771" />
+    </g>
+    <g
+       id="s6">
+      <use
+         xlink:href="#s5"
+         x="-0.063"
+         id="use3774" />
+      <use
+         xlink:href="#star"
+         x="0.315"
+         id="use3776" />
+    </g>
+    <g
+       id="x4">
+      <use
+         xlink:href="#s6"
+         id="use3779" />
+      <use
+         xlink:href="#s5"
+         y="0.054"
+         id="use3781" />
+      <use
+         xlink:href="#s6"
+         y="0.108"
+         id="use3783" />
+      <use
+         xlink:href="#s5"
+         y="0.162"
+         id="use3785" />
+    </g>
+    <g
+       id="union">
+      <use
+         xlink:href="#x4"
+         y="-0.216"
+         id="use3788" />
+      <use
+         xlink:href="#x4"
+         id="use3790" />
+      <use
+         xlink:href="#s6"
+         y="0.216"
+         id="use3792" />
+    </g>
+    <rect
+       id="stripe"
+       width="1235"
+       height="50"
+       fill="#bf0a30" />
+  </defs>
+  <rect
+     width="1235"
+     height="650"
+     fill="white"
+     id="rect3795" />
+  <use
+     xlink:href="#stripe"
+     id="use3797" />
+  <use
+     xlink:href="#stripe"
+     y="100"
+     id="use3799" />
+  <use
+     xlink:href="#stripe"
+     y="200"
+     id="use3801" />
+  <use
+     xlink:href="#stripe"
+     y="300"
+     id="use3803" />
+  <use
+     xlink:href="#stripe"
+     y="400"
+     id="use3805" />
+  <use
+     xlink:href="#stripe"
+     y="500"
+     id="use3807" />
+  <use
+     xlink:href="#stripe"
+     y="600"
+     id="use3809" />
+  <rect
+     width="494"
+     height="350"
+     id="rect3811"
+     fill="#002868" />
+  <use
+     xlink:href="#union"
+     transform="translate(247, 175) scale(650, 650)"
+     id="use3813" />
+  <!-- end original Flag_of_United_States.svg -->
+  <!-- begin modified Flag_of_Germany.svg -->
+  <polygon
+     id="gold_stripe"
+     points="1235,0 1235,650 0,650 "
+     transform="matrix(0.99999215,0,0,1.0000021,-0.00287109,-0.00286733)"
+     style="fill:#ffce00" />
+  <polygon
+     id="red_stripe"
+     points="411.67,433.33 1235,0 1235,433.33 "
+     transform="matrix(0.80807051,0,0,0.80766046,237.34885,-0.00949087)"
+     style="fill:#005bbb;fill-opacity:1" />
+  <!-- end modified Flag_of_Germany.svg -->
+</svg>

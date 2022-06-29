@@ -402,6 +402,9 @@ body::after {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 3px 7px;
 }
 
@@ -415,6 +418,26 @@ body::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.header .flag-change__image-ibg {
+  margin-right: 7px;
+  display: block;
+  width: 40px;
+  height: 20px;
+  opacity: 90%;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.header .flag-change__image-ibg:hover {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .menu__list {
@@ -439,6 +462,26 @@ body::after {
           align-items: center;
 }
 
+.menu__link {
+  font-size: 20px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.8274509804);
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.menu__link:hover {
+  -webkit-transform: scale(1.15);
+      -ms-transform: scale(1.15);
+          transform: scale(1.15);
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+  color: #B47088;
+  text-shadow: rgba(180, 112, 136, 0.6117647059) 0px 0px 1px;
+}
+
 .button {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -460,6 +503,116 @@ body::after {
 
 .icon-menu {
   display: none;
+}
+
+.no-webp .footer{
+  background: rgba(195, 184, 98, 0.1137254902) url("../img/bg-picture-footer.png") no-repeat center center; }
+
+.footer__line {
+  height: 2px;
+  background: #FFBF96;
+  margin: 30px 30px 25px;
+  border-radius: 20px;
+}
+
+.footer__top {
+  height: 60px;
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__row .menu__body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.footer__telephone {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33%;
+          flex: 0 1 33%;
+}
+
+.footer__mail {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33%;
+          flex: 0 1 33%;
+  text-align: center;
+}
+
+.footer__socials {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33%;
+          flex: 0 1 33%;
+  text-align: right;
+}
+
+.footer__socials li {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+.footer__bottom {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.no-webp .phone-number-btn{
+  background: url("../img/phone-call.png") 0 8px/49px no-repeat; }
+
+.phone-number-btn {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 68px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  color: #1535e7;
+}
+
+.mail-btn {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #1535e7;
+}
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.socials__image-ibg {
+  display: block;
+  height: 60px;
+  width: 60px;
 }
 
 .no-webp .hero__wrapper{
@@ -548,7 +701,7 @@ section {
 }
 
 .leave-applacation__wrapper {
-  background-color: #B47088;
+  background-color: rgba(180, 112, 136, 0.8901960784);
   color: #fff;
   padding: 25px 0px 25px;
 }
@@ -582,6 +735,9 @@ section {
   color: #000;
 }
 
+.no-webp .complex-services__wrapper{
+  background: rgba(255, 197, 160, 0.3215686275) url("../img/bg-picture-services.png") 150px 0 no-repeat; }
+
 .complex-services__wrapper {
   margin: -50px;
   padding: 50px;
@@ -605,7 +761,7 @@ section {
 }
 
 .complex-services__item {
-  background: rgba(255, 197, 160, 0.3215686275);
+  background: rgba(198, 195, 194, 0.3647058824);
   -webkit-box-flex: 1;
       -ms-flex: 1 1 31%;
           flex: 1 1 31%;
@@ -661,10 +817,6 @@ section {
   margin-bottom: 5px;
 }
 
-.our-team__wrapper {
-  background: #F5F5F5;
-}
-
 .our-team__title {
   padding-top: 50px;
 }
@@ -698,7 +850,7 @@ section {
 }
 
 .our-team__card {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-right: 15px;
   -webkit-box-flex: 0;
       -ms-flex: 0 1 250px;
@@ -712,18 +864,24 @@ section {
 
 .our-team__person-name {
   line-height: 2;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 700;
 }
 
 .our-team__person-speciality {
   line-height: 1;
+  font-size: 16px;
+  font-family: sans-serif;
 }
 
-.our-cases__button-more {
-  margin: 20px 47%;
-  width: 10%;
-  font-weight: 800;
-  font-size: 20px;
-  color: #C2B863;
+.our-cases {
+  margin-bottom: 0;
+}
+
+.our-cases__wrapper {
+  background: #F5F5F5;
+  padding-bottom: 50px;
 }
 
 .our-cases__cards {
@@ -753,13 +911,45 @@ section {
 
 .our-cases__image-ibg {
   min-height: 220px;
+  max-height: 240px;
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 38%;
-          flex: 0 1 38%;
+      -ms-flex: 0 1 40%;
+          flex: 0 1 40%;
 }
 
 .our-cases__info {
-  width: 60%;
+  width: 58%;
+}
+
+.our-cases__button-more {
+  margin: 20px 47%;
+  width: 10%;
+  font-weight: 800;
+  font-size: 20px;
+  color: #C2B863;
+}
+
+.case__title {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.case__subtitle {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+.no-webp .case li{
+  background: url("../img/mini-check.png") no-repeat left 3.6px; }
+
+.case li {
+  font-size: 18px;
+  padding-left: 15px;
+  padding-bottom: 4px;
+  line-height: 1.1;
 }
 
 @media (max-width: 47.99875em) {
@@ -817,4 +1007,12 @@ section {
   }
 }
 
+.webp .footer{ background: rgba(195, 184, 98, 0.1137254902) url(../img/bg-picture-footer.webp) no-repeat center center; }
+
+.webp .phone-number-btn{ background: url(../img/phone-call.webp) 0 8px/49px no-repeat; }
+
 .webp .hero__wrapper{ background: #E6F3F4 url(../img/bg-picture-hero.webp) no-repeat center center; }
+
+.webp .complex-services__wrapper{ background: rgba(255, 197, 160, 0.3215686275) url(../img/bg-picture-services.webp) 150px 0 no-repeat; }
+
+.webp .case li{ background: url(../img/mini-check.webp) no-repeat left 3.6px; }
