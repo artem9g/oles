@@ -1,6 +1,6 @@
 (() => {
     "use strict";
-    const modules_flsModules = {};
+    const flsModules = {};
     function isWebp() {
         function testWebP(callback) {
             let webP = new Image;
@@ -278,7 +278,7 @@
                         if (index == showMoreTypeValue) break;
                     }
                 } else {
-                    const showMoreTypeValue = showMoreContent.dataset.showmoreContent ? showMoreContent.dataset.showmoreContent : 150;
+                    const showMoreTypeValue = showMoreContent.dataset.showmoreContent ? showMoreContent.dataset.showmoreContent : 550;
                     hiddenHeight = showMoreTypeValue;
                 }
                 return hiddenHeight;
@@ -318,7 +318,7 @@
             }
         }));
     }
-    function functions_FLS(message) {
+    function FLS(message) {
         setTimeout((() => {
             if (window.FLS) console.log(message);
         }), 0);
@@ -607,11 +607,11 @@
             if (!this.isOpen && this.lastFocusEl) this.lastFocusEl.focus(); else focusable[0].focus();
         }
         popupLogging(message) {
-            this.options.logging ? functions_FLS(`[Попапос]: ${message}`) : null;
+            this.options.logging ? FLS(`[Попапос]: ${message}`) : null;
         }
     }
-    modules_flsModules.popup = new Popup({});
-    let gotoblock_gotoBlock = (targetBlock, noHeader = false, speed = 500, offsetTop = 0) => {
+    flsModules.popup = new Popup({});
+    let gotoBlock = (targetBlock, noHeader = false, speed = 500, offsetTop = 0) => {
         const targetBlockElement = document.querySelector(targetBlock);
         if (targetBlockElement) {
             let headerItem = "";
@@ -637,8 +637,8 @@
                     behavior: "smooth"
                 });
             }
-            functions_FLS(`[gotoBlock]: Юхуу...едем к ${targetBlock}`);
-        } else functions_FLS(`[gotoBlock]: Ой ой..Такого блока нет на странице: ${targetBlock}`);
+            FLS(`[gotoBlock]: Юхуу...едем к ${targetBlock}`);
+        } else FLS(`[gotoBlock]: Ой ой..Такого блока нет на странице: ${targetBlock}`);
     };
     let addWindowScrollEvent = false;
     function pageNavigation() {
@@ -653,7 +653,7 @@
                     const noHeader = gotoLink.hasAttribute("data-goto-header") ? true : false;
                     const gotoSpeed = gotoLink.dataset.gotoSpeed ? gotoLink.dataset.gotoSpeed : 500;
                     const offsetTop = gotoLink.dataset.gotoTop ? parseInt(gotoLink.dataset.gotoTop) : 0;
-                    gotoblock_gotoBlock(gotoLinkSelector, noHeader, gotoSpeed, offsetTop);
+                    gotoBlock(gotoLinkSelector, noHeader, gotoSpeed, offsetTop);
                     e.preventDefault();
                 }
             } else if ("watcherCallback" === e.type && e.detail) {
@@ -676,7 +676,7 @@
         if (getHash()) {
             let goToHash;
             if (document.querySelector(`#${getHash()}`)) goToHash = `#${getHash()}`; else if (document.querySelector(`.${getHash()}`)) goToHash = `.${getHash()}`;
-            goToHash ? gotoblock_gotoBlock(goToHash, true, 500, 20) : null;
+            goToHash ? gotoBlock(goToHash, true, 500, 20) : null;
         }
     }
     setTimeout((() => {
