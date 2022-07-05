@@ -492,12 +492,15 @@ body::after {
 }
 
 .header__logo {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
 }
 
 .header__menu {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
   margin: 0 15px;
 }
 
@@ -1517,8 +1520,14 @@ section {
 }
 
 @media (max-width: 525px) {
+  .header__logo {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+  }
+
   .header__logo img {
-    width: 175px;
+    width: 185px;
   }
 }
 
@@ -1532,6 +1541,18 @@ section {
 }
 
 @media (max-width: 47.99875em) {
+  .header__logo {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+  }
+
+  .header__menu {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+  }
+
   .menu__body {
     display: none;
   }
@@ -1604,6 +1625,10 @@ section {
             flex: 0 1 80%;
     min-height: 200px;
   }
+
+  .our-cases__sub-title {
+    text-align: center;
+  }
 }
 
 @media (max-width: 29.99875em) {
@@ -1620,7 +1645,7 @@ section {
   }
 
   .our-team__image-ibg {
-    height: 150px;
+    height: 200px;
   }
 }
 
