@@ -24,7 +24,7 @@ body {
 body {
   color: #000;
   line-height: 1;
-  font-family: "Poppins";
+  font-family: "poppins";
   font-size: 1.125rem;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
@@ -36,7 +36,7 @@ body {
 input,
 button,
 textarea {
-  font-family: "Poppins";
+  font-family: "poppins";
   font-size: inherit;
 }
 
@@ -1199,45 +1199,22 @@ section {
 }
 
 .our-team__image-ibg img {
-  border-radius: 40px;
   -o-object-fit: contain;
      object-fit: contain;
 }
 
 .our-team__person-name {
   line-height: 2;
+  font-size: 16px;
   font-family: "League+Spartan";
   font-weight: 600;
 }
 
-@supports (font-size: clamp( 0.875rem , 0.8295454545rem  +  0.2272727273vw , 1rem )) {
-  .our-team__person-name {
-    font-size: clamp( 0.875rem , 0.8295454545rem  +  0.2272727273vw , 1rem );
-  }
-}
-
-@supports not (font-size: clamp( 0.875rem , 0.8295454545rem  +  0.2272727273vw , 1rem )) {
-  .our-team__person-name {
-    font-size: calc(0.875rem + 0.125 * (100vw - 20rem) / 55);
-  }
-}
-
 .our-team__person-speciality {
   line-height: 1;
+  font-size: 16px;
   font-family: "League+Spartan";
   font-weight: 500;
-}
-
-@supports (font-size: clamp( 0.875rem , 0.8295454545rem  +  0.2272727273vw , 1rem )) {
-  .our-team__person-speciality {
-    font-size: clamp( 0.875rem , 0.8295454545rem  +  0.2272727273vw , 1rem );
-  }
-}
-
-@supports not (font-size: clamp( 0.875rem , 0.8295454545rem  +  0.2272727273vw , 1rem )) {
-  .our-team__person-speciality {
-    font-size: calc(0.875rem + 0.125 * (100vw - 20rem) / 55);
-  }
 }
 
 .our-cases {
