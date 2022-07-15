@@ -1,149 +1,7 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;
+
+0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 @charset "UTF-8";
-
-@font-face {
-  font-family: Poppins;
-  font-display: swap;
-  src: url("../fonts/Poppins-Black.woff2") format("woff2"), url("../fonts/Poppins-Black.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Poppins;
-  font-display: swap;
-  src: url("../fonts/Poppins-BlackItalic.woff2") format("woff2"), url("../fonts/Poppins-BlackItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Poppins;
-  font-display: swap;
-  src: url("../fonts/Poppins-ExtraBold.woff2") format("woff2"), url("../fonts/Poppins-ExtraBold.woff") format("woff");
-  font-weight: 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Poppins;
-  font-display: swap;
-  src: url("../fonts/Poppins-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/Poppins-ExtraBoldItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Poppins;
-  font-display: swap;
-  src: url("../fonts/Poppins-Bold.woff2") format("woff2"), url("../fonts/Poppins-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Poppins;
-  font-display: swap;
-  src: url("../fonts/Poppins-BoldItalic.woff2") format("woff2"), url("../fonts/Poppins-BoldItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Poppins;
-  font-display: swap;
-  src: url("../fonts/Poppins-ExtraLight.woff2") format("woff2"), url("../fonts/Poppins-ExtraLight.woff") format("woff");
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Poppins;
-  font-display: swap;
-  src: url("../fonts/Poppins-Light.woff2") format("woff2"), url("../fonts/Poppins-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Poppins;
-  font-display: swap;
-  src: url("../fonts/Poppins-LightItalic.woff2") format("woff2"), url("../fonts/Poppins-LightItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Poppins;
-  font-display: swap;
-  src: url("../fonts/Poppins-ExtraLightItalic.woff2") format("woff2"), url("../fonts/Poppins-ExtraLightItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Poppins;
-  font-display: swap;
-  src: url("../fonts/Poppins-MediumItalic.woff2") format("woff2"), url("../fonts/Poppins-MediumItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Poppins;
-  font-display: swap;
-  src: url("../fonts/Poppins-Regular.woff2") format("woff2"), url("../fonts/Poppins-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Poppins;
-  font-display: swap;
-  src: url("../fonts/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins-SemiBold.woff") format("woff");
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Poppins;
-  font-display: swap;
-  src: url("../fonts/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Poppins;
-  font-display: swap;
-  src: url("../fonts/Poppins-Italic.woff2") format("woff2"), url("../fonts/Poppins-Italic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Poppins;
-  font-display: swap;
-  src: url("../fonts/Poppins-SemiBoldItalic.woff2") format("woff2"), url("../fonts/Poppins-SemiBoldItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Poppins;
-  font-display: swap;
-  src: url("../fonts/Poppins-Thin.woff2") format("woff2"), url("../fonts/Poppins-Thin.woff") format("woff");
-  font-weight: 100;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Poppins;
-  font-display: swap;
-  src: url("../fonts/Poppins-ThinItalic.woff2") format("woff2"), url("../fonts/Poppins-ThinItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
 * {
   padding: 0px;
   margin: 0px;
@@ -166,7 +24,7 @@ body {
 body {
   color: #000;
   line-height: 1;
-  font-family: "Poppins Medium";
+  font-family: "Poppins";
   font-size: 1.125rem;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
@@ -178,7 +36,7 @@ body {
 input,
 button,
 textarea {
-  font-family: "Poppins Medium";
+  font-family: "Poppins";
   font-size: inherit;
 }
 
@@ -609,7 +467,7 @@ body::after {
 
 .menu__link {
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 700;
   color: rgba(0, 0, 0, 0.8274509804);
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
@@ -631,10 +489,10 @@ body::after {
   -webkit-transform: scale(1.15);
       -ms-transform: scale(1.15);
           transform: scale(1.15);
-  -webkit-transition: 0.6s;
-  -o-transition: 0.6s;
-  transition: 0.6s;
-  color: #B47088;
+  letter-spacing: 1px;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
   text-shadow: rgba(180, 112, 136, 0.6117647059) 0px 0px 1px;
   border-bottom: dotted 1.5px rgba(180, 112, 136, 0.6117647059);
 }
@@ -689,7 +547,7 @@ body::after {
 }
 
 .no-webp .footer{
-  background: rgba(195, 184, 98, 0.1137254902) url("../img/decor/bg-picture-footer.png") no-repeat center center; }
+  background: rgba(195, 184, 98, 0.1843137255) url("../img/decor/bg-picture-footer.png") no-repeat center center; }
 
 .footer__line {
   height: 2px;
@@ -698,10 +556,16 @@ body::after {
   border-radius: 20px;
 }
 
+.footer__wrapper {
+  padding: 15px 10px 0px 10px;
+  background-color: rgba(255, 255, 255, 0.626);
+  border-radius: 20px;
+}
+
 .footer__top {
   height: 60px;
   font-size: 22px;
-  font-weight: 800;
+  font-weight: 700;
   margin-bottom: 20px;
 }
 
@@ -758,6 +622,7 @@ body::after {
 .footer__bottom {
   text-align: center;
   margin-bottom: 40px;
+  padding-bottom: 15px;
 }
 
 .phone-number-btn {
@@ -775,15 +640,15 @@ body::after {
   transition: 0.2s;
 }
 
-@supports (font-size: clamp( 1rem , 0.8636363636rem  +  0.6818181818vw , 1.375rem )) {
+@supports (font-size: clamp( 0.875rem , 0.6931818182rem  +  0.9090909091vw , 1.375rem )) {
   .phone-number-btn {
-    font-size: clamp( 1rem , 0.8636363636rem  +  0.6818181818vw , 1.375rem );
+    font-size: clamp( 0.875rem , 0.6931818182rem  +  0.9090909091vw , 1.375rem );
   }
 }
 
-@supports not (font-size: clamp( 1rem , 0.8636363636rem  +  0.6818181818vw , 1.375rem )) {
+@supports not (font-size: clamp( 0.875rem , 0.6931818182rem  +  0.9090909091vw , 1.375rem )) {
   .phone-number-btn {
-    font-size: calc(1rem + 0.375 * (100vw - 20rem) / 55);
+    font-size: calc(0.875rem + 0.5 * (100vw - 20rem) / 55);
   }
 }
 
@@ -874,6 +739,8 @@ body::after {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  background: #fff;
+  border-radius: 40%;
 }
 
 .socials__image-ibg:hover {
@@ -883,8 +750,6 @@ body::after {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  background: #fff;
-  border-radius: 50%;
 }
 
 .no-webp .hero__wrapper{
@@ -926,7 +791,8 @@ body::after {
 
 .hero__main-title {
   line-height: 1.5;
-  font-weight: 500;
+  font-weight: 600;
+  letter-spacing: 3px;
 }
 
 @supports (font-size: clamp( 1.5625rem , 0.9943181818rem  +  2.8409090909vw , 3.125rem )) {
@@ -946,6 +812,7 @@ body::after {
   line-height: 1.5;
   margin-bottom: 25px;
   max-width: 62%;
+  letter-spacing: 0.5px;
 }
 
 @supports (font-size: clamp( 1.125rem , 0.9886363636rem  +  0.6818181818vw , 1.5rem )) {
@@ -965,15 +832,15 @@ section {
 }
 
 .text-bold {
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .section-title {
   line-height: 1.5;
   color: #4AABB2;
   margin-bottom: 15px;
-  font-weight: 800;
-  text-indent: 20px;
+  font-weight: 700;
+  text-indent: 10px;
 }
 
 @supports (font-size: clamp( 1.625rem , 1.3068181818rem  +  1.5909090909vw , 2.5rem )) {
@@ -991,6 +858,7 @@ section {
 .section-sub-title {
   line-height: 1;
   margin-bottom: 25px;
+  text-indent: 10px;
 }
 
 @supports (font-size: clamp( 1.125rem , 0.9886363636rem  +  0.6818181818vw , 1.5rem )) {
@@ -1051,7 +919,7 @@ section {
 
 .leave-applacation__title {
   text-align: center;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 2px;
   line-height: 1.7;
 }
@@ -1119,20 +987,20 @@ section {
 .item-services__title {
   line-height: 1.5;
   margin-bottom: 5px;
-  font-weight: 900;
+  font-weight: 600;
   letter-spacing: 0.6px;
   margin-top: 10px;
 }
 
-@supports (font-size: clamp( 1.25rem , 1.1136363636rem  +  0.6818181818vw , 1.625rem )) {
+@supports (font-size: clamp( 1.25rem , 1.0681818182rem  +  0.9090909091vw , 1.75rem )) {
   .item-services__title {
-    font-size: clamp( 1.25rem , 1.1136363636rem  +  0.6818181818vw , 1.625rem );
+    font-size: clamp( 1.25rem , 1.0681818182rem  +  0.9090909091vw , 1.75rem );
   }
 }
 
-@supports not (font-size: clamp( 1.25rem , 1.1136363636rem  +  0.6818181818vw , 1.625rem )) {
+@supports not (font-size: clamp( 1.25rem , 1.0681818182rem  +  0.9090909091vw , 1.75rem )) {
   .item-services__title {
-    font-size: calc(1.25rem + 0.375 * (100vw - 20rem) / 55);
+    font-size: calc(1.25rem + 0.5 * (100vw - 20rem) / 55);
   }
 }
 
@@ -1160,7 +1028,7 @@ section {
 .spollers__title {
   color: #4AABB2;
   padding: 5px 10px;
-  font-weight: 800;
+  font-weight: 600;
   background: rgba(255, 255, 255, 0.589);
   border-radius: 20px;
   padding: 5px 25px;
@@ -1194,7 +1062,7 @@ section {
   text-align: justify;
   padding: 10px 15px 10px;
   text-indent: 5px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.5px;
   background: #fff;
   border-radius: 20px;
@@ -1206,6 +1074,10 @@ section {
 
 .our-team {
   margin-bottom: 0px;
+}
+
+.our-team__wrapper {
+  text-indent: 10px;
 }
 
 .our-team__show-mors-wrapper {
@@ -1225,7 +1097,7 @@ section {
   max-width: 300px;
   margin-top: 20px;
   margin-bottom: 10px;
-  font-weight: 800;
+  font-weight: 600;
   color: #C2B863;
   background: #fff;
   border-radius: 20px;
@@ -1280,6 +1152,7 @@ section {
 .our-team__text p {
   line-height: 1.5;
   text-align: justify;
+  margin-bottom: 5px;
 }
 
 @supports (font-size: clamp( 1rem , 0.9545454545rem  +  0.2272727273vw , 1.125rem )) {
@@ -1316,8 +1189,8 @@ section {
   margin-bottom: 30px;
   margin-right: 15px;
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 250px;
-          flex: 0 1 250px;
+      -ms-flex: 0 0 250px;
+          flex: 0 0 250px;
   text-align: center;
 }
 
@@ -1326,15 +1199,15 @@ section {
 }
 
 .our-team__image-ibg img {
-  border-radius: 30px;
+  border-radius: 40px;
   -o-object-fit: contain;
      object-fit: contain;
 }
 
 .our-team__person-name {
   line-height: 2;
-  font-family: sans-serif;
-  font-weight: 700;
+  font-family: "League+Spartan";
+  font-weight: 600;
 }
 
 @supports (font-size: clamp( 0.875rem , 0.8295454545rem  +  0.2272727273vw , 1rem )) {
@@ -1351,7 +1224,8 @@ section {
 
 .our-team__person-speciality {
   line-height: 1;
-  font-family: sans-serif;
+  font-family: "League+Spartan";
+  font-weight: 500;
 }
 
 @supports (font-size: clamp( 0.875rem , 0.8295454545rem  +  0.2272727273vw , 1rem )) {
@@ -1445,7 +1319,7 @@ section {
 
 .our-cases__button-more {
   margin-top: 30px;
-  font-weight: 800;
+  font-weight: 600;
   color: #C2B863;
   background: #fff;
   border-radius: 20px;
@@ -1499,7 +1373,7 @@ section {
 }
 
 .case__title {
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 1px;
   line-height: 1.5;
   text-align: center;
@@ -1567,6 +1441,7 @@ section {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-bottom: 10px;
   }
 
   .no-webp .footer__telephone{
@@ -1626,6 +1501,10 @@ section {
 
   .clients-form .button {
     width: 50%;
+  }
+
+  .hero__main-title {
+    letter-spacing: 0px;
   }
 
   .digital__title {
@@ -1819,6 +1698,10 @@ section {
 }
 
 @media (max-width: 29.99875em) {
+  .phone-number-btn {
+    font-size: 16px;
+  }
+
   .section-title {
     text-align: center;
     text-indent: 0px;
@@ -1836,7 +1719,7 @@ section {
   }
 }
 
-.webp .footer{ background: rgba(195, 184, 98, 0.1137254902) url(../img/decor/bg-picture-footer.webp) no-repeat center center; }
+.webp .footer{ background: rgba(195, 184, 98, 0.1843137255) url(../img/decor/bg-picture-footer.webp) no-repeat center center; }
 
 .webp .footer__telephone{ background: url(../img/decor/phone-call.webp) 0 8px/49px no-repeat; }
 
@@ -1847,6 +1730,5 @@ section {
 .webp .case li{ background: url(../img/decor/mini-check.webp) no-repeat left 3.6px; }
 
 @media (max-width: 760px){
-
   .webp .footer__telephone{ background: url(../img/decor/phone-call.webp) 0 2px/49px no-repeat; }
 }
