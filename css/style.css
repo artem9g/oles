@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;
+@import url(https://fonts.googleapis.com/css2?family=poppins:ital,wght@0,300;
 
 0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 @charset "UTF-8";
@@ -1214,7 +1214,7 @@ section {
   line-height: 1;
   font-size: 16px;
   font-family: "League+Spartan";
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .our-cases {
@@ -1350,23 +1350,12 @@ section {
 }
 
 .case__title {
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 1px;
-  line-height: 1.5;
+  line-height: 1.4;
   text-align: center;
   margin: 8px 0;
-}
-
-@supports (font-size: clamp( 1rem , 0.9090909091rem  +  0.4545454545vw , 1.25rem )) {
-  .case__title {
-    font-size: clamp( 1rem , 0.9090909091rem  +  0.4545454545vw , 1.25rem );
-  }
-}
-
-@supports not (font-size: clamp( 1rem , 0.9090909091rem  +  0.4545454545vw , 1.25rem )) {
-  .case__title {
-    font-size: calc(1rem + 0.25 * (100vw - 20rem) / 55);
-  }
 }
 
 .case__subtitle {
@@ -1382,24 +1371,13 @@ section {
 }
 
 .no-webp .case li{
-  background: url("../img/decor/mini-check.png") no-repeat left 3.6px; }
+  background: url("../img/decor/mini-check.png") no-repeat left 5px; }
 
 .case li {
+  font-size: 18px;
   padding-left: 15px;
-  padding-bottom: 4px;
+  padding-bottom: 5px;
   line-height: 1.2;
-}
-
-@supports (font-size: clamp( 1rem , 0.9545454545rem  +  0.2272727273vw , 1.125rem )) {
-  .case li {
-    font-size: clamp( 1rem , 0.9545454545rem  +  0.2272727273vw , 1.125rem );
-  }
-}
-
-@supports not (font-size: clamp( 1rem , 0.9545454545rem  +  0.2272727273vw , 1.125rem )) {
-  .case li {
-    font-size: calc(1rem + 0.125 * (100vw - 20rem) / 55);
-  }
 }
 
 @media (max-width: 760px) {
@@ -1493,6 +1471,10 @@ section {
   }
 
   .our-team__title {
+    text-align: center;
+  }
+
+  .our-team__sub-title {
     text-align: center;
   }
 
@@ -1615,8 +1597,20 @@ section {
     right: 0.15625rem;
   }
 
+  .footer__bottom {
+    margin-bottom: 20px;
+  }
+
   .hero__sub-title {
     max-width: 100%;
+  }
+
+  section {
+    margin-bottom: 30px;
+  }
+
+  .leave-applacation {
+    margin-bottom: 50px;
   }
 
   .complex-services__row {
@@ -1692,6 +1686,7 @@ section {
   }
 
   .our-cases__wrapper {
+    padding-top: 30px;
     padding-bottom: 30px;
   }
 }
@@ -1704,7 +1699,7 @@ section {
 
 .webp .complex-services__wrapper{ background: rgba(255, 197, 160, 0.3215686275) url(../img/decor/bg-picture-services.webp) 150px 0 no-repeat; }
 
-.webp .case li{ background: url(../img/decor/mini-check.webp) no-repeat left 3.6px; }
+.webp .case li{ background: url(../img/decor/mini-check.webp) no-repeat left 5px; }
 
 @media (max-width: 760px){
   .webp .footer__telephone{ background: url(../img/decor/phone-call.webp) 0 2px/49px no-repeat; }
