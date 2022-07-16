@@ -632,7 +632,7 @@ body::after {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: end;
-  color: #0026ff;
+  color: #4aabb2;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
@@ -680,7 +680,7 @@ body::after {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #1535e7;
+  color: #4aabb2;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
